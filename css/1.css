@@ -1,10 +1,35 @@
 body {
 	background-color: #000000;
-	/* 背景颜色 */
+	/* body背景颜色 */
 }
 
-.WhiteFont
+.JinJiGongGao
+/* 紧急公告 */
 {
 	color: white;
+	/* 字体颜色:白色 */
 	font-size: 18px;
+	/* 字体大小:18像素 */
+	border: 2px solid blanchedalmond;
+	/* 边框:边框宽度2像素|边框样式:实线边框|边框颜色:类肤色*/
+	border-radius: 20px;
+	/* 边框圆角:20像素 */
+	float:left;
+	/* 浮动:左侧 */
+	width:auto;
+	/* 宽度:自动 */
+	background: #005500;
+	/* 背景:深绿色 */
+	height: auto;
+	/* 高度:自动 */
+	text-align: center;
+	/* 字体对齐方式:中心 */
+}
+
+.HuGuangTao_right
+{
+	text-align: right;
+	/* 字体对齐方式:右侧 */
+	margin-right:3%;
+	/* 右边距:3% */
 }
