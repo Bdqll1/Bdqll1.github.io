@@ -21,9 +21,9 @@ a:active {color:#ffaa00;}  /* 鼠标点击时 */
 	/* 边框:边框宽度2像素|边框样式:实线边框|边框颜色:类肤色*/
 	border-radius: 20px;
 	/* 边框圆角:20像素 */
-	float:left;
+	/* float:left;
 	/* 浮动:左侧 */
-	width:auto;
+	width:600px;
 	/* 宽度:自动 */
 	background: #005500;
 	/* 背景:深绿色 */
