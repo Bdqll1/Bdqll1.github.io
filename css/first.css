@@ -3,7 +3,7 @@ body {
 	/* body背景颜色 */
 }
 
-a:link {color:#000000;}      /* 未访问链接*/
+a:link {color:hsl(204, 100%, 50%);}      /* 未访问链接*/
 a:visited {color:#00aaff;}  /* 已访问链接 */
 a:hover {color:#ffaa00;}  /* 鼠标移动到链接上 */
 a:active {color:#ffaa00;}  /* 鼠标点击时 */
@@ -31,10 +31,19 @@ a:active {color:#ffaa00;}  /* 鼠标点击时 */
 	/* 高度:自动 */
 	text-align: center;
 	/* 字体对齐方式:中心 */
-	
+	margin:8px;
+	/* 页边距:上右下左 8像素 */
+}
+
+.GongGaoNeiRong
+/* 公告内容 */
+{
+	margin:0px 10px 10px 10px;
+	/* 页边距: 上 右 下 左 */	
 }
 
 .HuGuangTao_right
+/*  */
 {
 	text-align: right;
 	/* 字体对齐方式:右侧 */
@@ -43,6 +52,7 @@ a:active {color:#ffaa00;}  /* 鼠标点击时 */
 }
 
 .KuaiSuLianJie
+/* 快速链接 */
 {
 	float:left;
 	/* 浮动:左侧 */
@@ -55,4 +65,11 @@ a:active {color:#ffaa00;}  /* 鼠标点击时 */
 	border-radius: 20px;
 	/* 边框圆角:20像素 */
 	
+}
+
+img 
+/* 全局图像 */
+{
+    border-radius: 20px;
+	/* 边框圆角:20像素 */
 }
