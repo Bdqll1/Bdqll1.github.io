@@ -1,0 +1,417 @@
+body {
+	background-color: #fcfaf3;
+	/* 背景颜色 */
+}
+
+a {
+	text-decoration: none
+		/*没有文本装饰*/
+}
+
+a:hover {
+	text-decoration: none
+		/*没有文本装饰*/
+}
+
+.ule {
+	margin: 0px;
+	/* 四个边距 {0px} */
+	padding: 0px;
+	/* 填充 {0px} */
+	list-style: none;
+	/* 不指定属性 */
+}
+
+.ule li {
+	margin: 0px 40px 0px 0px;
+	/* 右边距 40px */
+	display: inline;
+	/* 默认。此元素会被显示为内联元素，元素前后没有换行符。 */
+
+}
+
+ul {
+	list-style: none;
+	/* 不指定属性 */
+
+}
+
+li {
+	list-style: none;
+	/* 不指定属性 */
+
+}
+
+li:hover {
+	color: skyblue;
+	/* 字体颜色 */
+
+
+}
+
+.hh {
+	text-indent: 32px;
+	/* 首行缩进 {32px} */
+}
+
+.biaoge1 {
+	margin-left: 700px;
+	/* 左边距 {220px} */
+	margin-right: 0px;
+	/* 右边距 {220px} */
+}
+
+.biaoge2 {
+	text-align: center;
+	/* 文本居中 */
+	margin-left: 1px;
+	/* 左边距 1px */
+}
+
+.biaoge3 {
+	margin-top: 70px;
+	/* 上边距 70px */
+	margin-left: 600px;
+	/* 左边距 600px */
+	font-size: 24px;
+	/* 字体大小 24px */
+
+}
+
+/* 设置导航栏的搜索框样式 */
+.topnav input[type=text] {
+	overflow: hidden;
+	/* 不显示滚动条 */
+	background-color: #e9e9e9;
+	/* 背景颜色 */
+	float: right;
+	/* 浮动 {右对齐} */
+	padding: 5px;
+	/* 填充 {上下左右5px} */
+	border: none;
+	/* 边框样式 {无}*/
+	margin-top: 100px;
+	/* 上边距 {100px}*/
+	margin-bottom: auto;
+	/* 下边距 {自动} */
+	margin-right: 180px;
+	/* 右边距 {180px} */
+	font-size: 15px;
+	/* 字体大小 {15px} */
+}
+
+.dhl1 {
+	background-color: seagreen;
+	/* 背景颜色 */
+	letter-spacing: 0.2px;
+	/* 字符间距 {增加0.2px} */
+	width: 100%;
+	/* 宽度 {自动} */
+	height: 60px;
+	/* 高度 {60px} */
+	max-width: 100%;
+	/* 最大宽度 */
+}
+
+.dhl11 {
+	font-size: 14px;
+	/* 字体大小 14px */
+	color: white;
+	/* 字体颜色 白色 */
+	text-align: center;
+	/* 文本居中 */
+	font-weight: 100px;
+	/* 字体大小重量级 100px */
+	line-height: 60px;
+	/* 行高 60px */
+	max-width: 100%;
+	/* 限制最大宽度 100% */
+}
+
+.dhl2 {
+	background-color: beige;
+	/* 背景颜色 */
+	margin-left: 325px;
+	/* 左边距 325px */
+	margin-top: 15px;
+	/* 上边距 15px */
+	float: left;
+	/* 浮动 左 */
+	border-style: solid;
+	/* 边框样式 实线 */
+	border-width: 1px;
+	/* 边线大小 1px */
+	border-bottom-color: black;
+	/* 底部边框颜色 黑色 */
+	border-radius: 10px;
+	/* 边框 圆角值 10px */
+	max-width: 100%;
+	/* 限制最大宽度 100% */
+}
+
+.dhl22 {
+	font-size: 11px;
+	/* 字体大小 */
+	margin-left: 8px;
+	/* 左边距 */
+	margin-right: 43px;
+	/* 右边距 */
+	line-height: 53px;
+	/* 行高 */
+	max-width: 100%;
+	/* 限制最大宽度 100% */
+}
+
+.logo1 {
+	margin-bottom: -15px;
+	/* 下边距 -15px */
+	margin-left: 220px;
+	/* 左边距 220px */
+	float: none;
+	/* 浮动 无 */
+}
+
+#heyuan1 {
+	font-size: 42px;
+	/* 字体大小 42px */
+}
+
+.heyuan1 {
+	background-color: #f5f9a6;
+	/* 背景颜色 */
+	margin-left: 600px;
+	/* 左边距 600px */
+	margin-top: 15px;
+	/* 上边距 15px */
+	margin-right: 700px;
+	/* 右边距 700px */
+	border-style: solid;
+	/* 实线 */
+	border-width: 1px;
+	/* 边框大小 */
+	border-bottom-color: black;
+	/* 边框颜色 */
+	border-radius: 10px;
+	/* 圆角值 */
+}
+
+.heyuan11 {
+	margin-right: auto;
+	/* 右边距 自动 */
+	margin-left: 40px;
+	/* 左边距 40px */
+
+}
+
+.heyuanjs {
+	font-family: 黑体;
+	/* 字体 黑体 */
+	font-size: 22px;
+	/* 字体大小 */
+	text-indent: 2em;
+	/* 首行缩进 2* */
+	background-color: #f5f5dc;
+	/* 背景颜色 */
+	margin-top: 15px;
+	/* 上边距 15px */
+	margin-right: 500px;
+	/* 右边距 500px */
+	margin-left: 600px;
+	/* 左边距 600px */
+	margin-bottom: auto;
+	/* 下边距 自动 */
+	border-style: solid;
+	/* 边框 样式 实线 */
+	border-width: 1px;
+	/* 边线宽度 */
+	border-bottom-color: black;
+	/* 边框 底部 颜色 黑色 */
+	border-radius: 10px;
+	/* 边框 圆角值 10px */
+}
+
+.img1 {
+	margin-right: 12px;
+	/* 右边距 12px */
+	margin-top: 10px;
+	/* 上边距 10px */
+	margin-bottom: 10px;
+	/* 下边距 10px */
+	border-radius: 20px;
+	/* 圆角值 20px */
+}
+
+.img2 {
+	float: none;
+	/* 浮动 无 */
+	margin-left: auto;
+	/* 左边距 自动 */
+	border-radius: 20px;
+	/* 圆角值 20px */
+	margin-right: 12px;
+	/* 右边距 12px */
+	margin-top: 10px;
+	/* 上边距 10px */
+	margin-bottom: 10px;
+	/* 下边距 10px */
+	max-width: 100%;
+	/* 限制最大宽度 100% */
+}
+
+.heyuanLishiyange {
+	font-family: 黑体;
+	/* 字体 黑体 */
+	font-size: 22px;
+	/* 字体大小 22px */
+	text-indent: 2em;
+	/* 首行缩进 2* */
+	background-color: #f5f5dc;
+	/* 背景颜色 */
+	margin-top: 15px;
+	/* 上边距 15px */
+	margin-right: 400px;
+	/* 右边距 400px */
+	margin-left: 600px;
+	/* 左边距 600px */
+	margin-bottom: auto;
+	/* 下边距 自动 */
+	border-style: solid;
+	/* 边框 线形 实线 */
+	border-width: 1px;
+	/* 边线宽度 1px */
+	border-bottom-color: black;
+	/* 边框 底部 颜色 黑色 */
+	border-radius: 10px;
+	/* 圆角值 10px */
+
+}
+
+.heyuanxingzhengquhua {
+	font-family: 黑体;
+	/* 字体 黑体 */
+	font-size: 22px;
+	/* 字体大小 22px */
+	background-color: #f5f5dc;
+	/* 背景颜色 */
+	margin-top: 15px;
+	/* 上边距 15px */
+	margin-right: 700px;
+	/* 右边距 700px */
+	margin-left: 600px;
+	/* 左边距 600px */
+	margin-bottom: auto;
+	/* 下边距 自动 */
+	border-style: solid;
+	/* 边框 线形 实线 */
+	border-width: 1px;
+	/* 边线宽度 1px */
+	border-bottom-color: black;
+	/* 边框 底部 颜色 黑色 */
+	border-radius: 10px;
+	/* 圆角值 10px */
+
+}
+
+.hysxzqt {
+	margin-left: 600px;
+	/* 左边距 600px */
+	margin-right: 700px;
+	/* 右边距 700px */
+}
+
+.hysxzqt2 {
+	overflow: hidden; /* 溢出内容修剪 且不显示 */
+	margin: 10px;/* 边距 10px */
+}
+
+.hysxzqt2 img {
+	width: 750px; /* 宽度 750px */
+	height: 1036px;/* 高度 1036px */
+	transition: all .4s;
+}
+
+.hysxzqt2 img:hover {
+	transform: scale(1.2);
+}
+
+.checkmap1 {
+	border-radius: 10px;
+	font-size: 48px;
+	border-style: solid;
+	border-width: 1px;
+	margin-left: 110px;
+	margin-top: 15px;
+}
+
+.dlhj1 {
+	margin-bottom: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-left: 525px;
+	background-color: #f5f5dc;
+	max-width: 45%;
+}
+
+.dlhj2 {
+	margin: 10px;
+	text-indent: 2em;
+}
+
+.rc1 {
+	border-radius: 20px;
+	margin: 30px 50px -20px 80px;
+}
+
+.hhzz {
+	font-size: 34px;
+	font-family: 黑体;
+	color: #009CDE;
+}
+
+.hhzz1 {
+	margin-left: 370px;
+	margin-top: 20px;
+	float: left;
+}
+
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99; /* 堆叠顺序 99级 */
+	border: none;
+	outline: none;
+	cursor: pointer; /* 鼠标指针变化 {食指} */
+	border-radius: 100px;
+	background-color: unset;
+}
+
+#myBtn:hover {
+	background-color: unset; /* 外边线 */
+}
+
+.lszx {
+	text-align: center;
+	margin-right: 250px;
+}
+
+.ond1 {
+	background-color: #d8c325;
+	padding: 20px;
+	border-radius: 18px;
+	color: #000000;
+	max-width: 100%;
+}
+
+.ond2 {
+	background-color: #70a81b;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 18px;
+	color: #ffffff;
+	margin-left: -15px;
+	max-width: 100%;
+}
