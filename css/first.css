@@ -1,0 +1,58 @@
+body {
+	background-color: #000000;
+	/* body背景颜色 */
+}
+
+a:link {color:#000000;}      /* 未访问链接*/
+a:visited {color:#00aaff;}  /* 已访问链接 */
+a:hover {color:#ffaa00;}  /* 鼠标移动到链接上 */
+a:active {color:#ffaa00;}  /* 鼠标点击时 */
+/* 注意： a:hover 必须在 a:link 和 a:visited 之后 */
+/* 注意： a:active 必须在 a:hover 之后。需要严格按顺序才能看到效果!!! */
+ 
+.GongGao
+/* 公告 */
+{
+	color: white;
+	/* 字体颜色:白色 */
+	font-size: 18px;
+	/* 字体大小:18像素 */
+	border: 3px solid blanchedalmond;
+	/* 边框:边框宽度2像素|边框样式:实线边框|边框颜色:类肤色*/
+	border-radius: 20px;
+	/* 边框圆角:20像素 */
+	float:left;
+	/* 浮动:左侧 */
+	width:auto;
+	/* 宽度:自动 */
+	background: #005500;
+	/* 背景:深绿色 */
+	height: auto;
+	/* 高度:自动 */
+	text-align: center;
+	/* 字体对齐方式:中心 */
+	
+}
+
+.HuGuangTao_right
+{
+	text-align: right;
+	/* 字体对齐方式:右侧 */
+	margin-right:3%;
+	/* 右边距:3% */
+}
+
+.KuaiSuLianJie
+{
+	float:left;
+	/* 浮动:左侧 */
+	color: white;
+	/* 字体颜色:白色 */
+	font-size: 18px;
+	/* 字体大小:18像素 */
+	border: 2px solid blanchedalmond;
+	/* 边框:边框宽度2像素|边框样式:实线边框|边框颜色:类肤色*/
+	border-radius: 20px;
+	/* 边框圆角:20像素 */
+	
+}
