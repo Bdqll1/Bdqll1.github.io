@@ -1,0 +1,32 @@
+body
+{
+	background-color: #000000;
+	/* body背景颜色 */
+}
+
+.LCJX_GongGao
+{
+	color: white;
+	/* 字体颜色:白色 */
+	font-size: 18px;
+	/* 字体大小:18像素 */
+	border: 3px solid blanchedalmond;
+	/* 边框:边框宽度2像素|边框样式:实线边框|边框颜色:类肤色*/
+	border-radius: 20px;
+	/* 边框圆角:20像素 */
+	width:550px;
+	/* 宽度:550px */
+	background: #005500;
+	/* 背景:深绿色 */
+	height: auto;
+	/* 高度:自动 */
+	text-align: center;
+	/* 字体对齐方式:中心 */
+	margin: 0px auto 10px auto;
+	/* 页边距:上 右 下 左 */
+}
+
+.LCJX_GongGaoNeiRong
+{
+	
+}
