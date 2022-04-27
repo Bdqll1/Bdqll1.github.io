@@ -28,5 +28,15 @@ body
 
 .LCJX_GongGaoNeiRong
 {
+	font-size: 18px;
+	margin:0px 10px 10px 10px;
+	/* 页边距: 上 右 下 左 */	
 	
+}
+
+img 
+/* 图像 */
+{
+    border-radius: 20px;
+	/* 边框圆角:20像素 */
 }
