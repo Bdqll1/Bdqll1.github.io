@@ -41,20 +41,25 @@ img
 	/* 边框圆角:20像素 */
 }
 
+.LCJX_LiZhiHaoYan
+{
+	background: #c885c8;
+}
+
 .LCJX_XueZiFengCai
 {
 	background: #696969;
+}
+
+.LCJX_JiuYeXinXi
+{
+	background: #550000;
 }
 
 .LCJX_RenCaiZhaoPin
 {
 	background: #e59900;
 	
-}
-
-.LCJX_JiuYeXinXi
-{
-	background: #550000;
 }
 
 .by_right
