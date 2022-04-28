@@ -12,7 +12,7 @@ body
 	/* 字体大小:18像素 */
 	border: 3px solid rgb(255, 235, 205);
 	/* 边框:边框宽度2像素|边框样式:实线边框|边框颜色:类肤色*/
-	border-radius: 20px;
+	border-radius: 24px;
 	/* 边框圆角:20像素 */
 	width:550px;
 	/* 宽度:550px */
@@ -37,7 +37,7 @@ body
 img 
 /* 图像 */
 {
-    border-radius: 20px;
+    border-radius: 24px;
 	/* 边框圆角:20像素 */
 }
 
