@@ -41,6 +41,27 @@ img
 	/* 边框圆角:20像素 */
 }
 
+.LCJX_GuangRongBang
+{
+	background: #00bc00;
+}
+
+.LCJX_GuangRongBang_NeiRong
+{
+	font-size: 1.8em;
+	text-shadow: 5px 5px 5px #ebeb00;
+}
+
+.LCJX_ZhaoShengJianZhang
+{
+	background: #ff5500;
+}
+
+.LCJX_XueYuanFengCai
+{
+	background: #008fd6;
+}
+
 .LCJX_LiZhiHaoYan
 {
 	background: #c885c8;
@@ -49,6 +70,11 @@ img
 .LCJX_XueZiFengCai
 {
 	background: #696969;
+}
+
+.LCJX_ZuiMeiJiaoShi
+{
+	background-color: #61815e;
 }
 
 .LCJX_JiuYeXinXi
@@ -60,6 +86,11 @@ img
 {
 	background: #e59900;
 	
+}
+
+.LCJX_GuanYuWoMen
+{
+	background: #aa007f;
 }
 
 .by_right
