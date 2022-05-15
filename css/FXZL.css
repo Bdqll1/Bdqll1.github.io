@@ -5,7 +5,7 @@ body
 }
 
 a:link {color:hsl(64, 100%, 50%);}      /* 未访问链接*/
-a:visited {color:#00aaff;}  /* 已访问链接 */
+a:visited {color:#93c900;}  /* 已访问链接 */
 a:hover {color:#ffaa00;}  /* 鼠标移动到链接上 */
 a:active {color:#ffaa00;}  /* 鼠标点击时 */
 /* 注意： a:hover 必须在 a:link 和 a:visited 之后 */
@@ -33,7 +33,7 @@ a:active {color:#ffaa00;}  /* 鼠标点击时 */
 	/* 字体大小:18像素 */
 	border: 3px solid blanchedalmond;
 	/* 边框:边框宽度2像素|边框样式:实线边框|边框颜色:类肤色*/
-	border-radius: 20px;
+	border-radius: 24px;
 	/* 边框圆角:20像素 */
 	/* float:left;
 	/* 浮动:左侧 */
@@ -81,7 +81,7 @@ a:active {color:#ffaa00;}  /* 鼠标点击时 */
 	/* 字体大小:18像素 */
 	border: 2px solid blanchedalmond;
 	/* 边框:边框宽度2像素|边框样式:实线边框|边框颜色:类肤色*/
-	border-radius: 20px;
+	border-radius: 24px;
 	/* 边框圆角:20像素 */
 	
 }
