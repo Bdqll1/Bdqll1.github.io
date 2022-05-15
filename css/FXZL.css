@@ -1,0 +1,94 @@
+body
+{
+	background-color: #000000;
+	/* body背景颜色 */
+}
+
+a:link {color:hsl(64, 100%, 50%);}      /* 未访问链接*/
+a:visited {color:#00aaff;}  /* 已访问链接 */
+a:hover {color:#ffaa00;}  /* 鼠标移动到链接上 */
+a:active {color:#ffaa00;}  /* 鼠标点击时 */
+/* 注意： a:hover 必须在 a:link 和 a:visited 之后 */
+/* 注意： a:active 必须在 a:hover 之后。需要严格按顺序才能看到效果!!! */
+ 
+.BiaoTi
+{
+	font-size:24px;
+	text-decoration:underline
+}
+
+.BiaoTi_2
+{
+	font-size:20px;
+	color: rgba(0, 255, 234, 0.74);
+}
+
+
+.GongGao
+/* 公告 */
+{
+	color: white;
+	/* 字体颜色:白色 */
+	font-size: 18px;
+	/* 字体大小:18像素 */
+	border: 3px solid blanchedalmond;
+	/* 边框:边框宽度2像素|边框样式:实线边框|边框颜色:类肤色*/
+	border-radius: 20px;
+	/* 边框圆角:20像素 */
+	/* float:left;
+	/* 浮动:左侧 */
+	width:550px;
+	/* 宽度:550px */
+	background: #000000;
+	/* 背景:深绿色 */
+	background-color:#1fc8db;
+	/* 背景颜色: */
+	background-image:linear-gradient(141deg,#f04b4b 25%,rgb(231, 74, 74) 50%,#ff7ece 85%);
+	opacity:0.95;
+	height: auto;
+	/* 高度:自动 */
+	text-align: left;
+	/* 字体对齐方式:中心 */
+	margin: 12px auto 12px auto;
+	/* 页边距:上 右 下 左 */
+}
+
+.GongGaoNeiRong
+/* 公告内容 */
+{
+	margin:0px 10px 10px 10px;
+	/* 页边距: 上 右 下 左 */	
+	text-align: left;
+}
+
+.HuGuangTao_right
+/*  */
+{
+	text-align: right;
+	/* 字体对齐方式:右侧 */
+	margin-right:3%;
+	/* 右边距:3% */
+}
+
+.KuaiSuLianJie
+/* 快速链接 */
+{
+	float:left;
+	/* 浮动:左侧 */
+	color: white;
+	/* 字体颜色:白色 */
+	font-size: 18px;
+	/* 字体大小:18像素 */
+	border: 2px solid blanchedalmond;
+	/* 边框:边框宽度2像素|边框样式:实线边框|边框颜色:类肤色*/
+	border-radius: 20px;
+	/* 边框圆角:20像素 */
+	
+}
+
+img 
+/* 图像 */
+{
+    border-radius: 20px;
+	/* 边框圆角:20像素 */
+}
