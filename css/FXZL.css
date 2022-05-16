@@ -5,7 +5,7 @@ body
 }
 
 a:link {color:hsl(64, 100%, 50%);}      /* 未访问链接*/
-a:visited {color:#93c900;}  /* 已访问链接 */
+a:visited {color:#ffaa00;}  /* 已访问链接 */
 a:hover {color:#ffaa00;}  /* 鼠标移动到链接上 */
 a:active {color:#ffaa00;}  /* 鼠标点击时 */
 /* 注意： a:hover 必须在 a:link 和 a:visited 之后 */
@@ -13,14 +13,18 @@ a:active {color:#ffaa00;}  /* 鼠标点击时 */
  
 .BiaoTi
 {
-	font-size:24px;
-	text-decoration:underline
+	font-size:30px;
+}
+
+.Orange
+{
+	color: #ffaa00;
 }
 
 .BiaoTi_2
 {
-	font-size:20px;
-	color: rgba(0, 255, 234, 0.74);
+	font-size:24px;
+	/* color: rgba(0, 255, 234, 0.74); */
 }
 
 
@@ -40,11 +44,11 @@ a:active {color:#ffaa00;}  /* 鼠标点击时 */
 	width:550px;
 	/* 宽度:550px */
 	background: #000000;
-	/* 背景:深绿色 */
-	background-color:#1fc8db;
+	/* 背景: */
+	background-color:#000000;
 	/* 背景颜色: */
-	background-image:linear-gradient(141deg,#c93d3d 25%,rgb(182, 56, 56) 50%,#d368aa 85%);
-	opacity:0.95;
+	/* background-image:linear-gradient(141deg,#c93d3d 25%,rgb(182, 56, 56) 50%,#d368aa 85%);
+	opacity:0.95; */
 	height: auto;
 	/* 高度:自动 */
 	text-align: left;
