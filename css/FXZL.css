@@ -4,10 +4,10 @@ body
 	/* body背景颜色 */
 }
 
-a:link {color:hsl(64, 100%, 50%);}      /* 未访问链接*/
-a:visited {color:#ffaa00;}  /* 已访问链接 */
-a:hover {color:#ffaa00;}  /* 鼠标移动到链接上 */
-a:active {color:#ffaa00;}  /* 鼠标点击时 */
+a:link {color:#f3f3f3;}      /* 未访问链接*/
+a:visited {color:#808080;}  /* 已访问链接 */
+a:hover {color:#cacaca;}  /* 鼠标移动到链接上 */
+a:active {color:#f3f3f3;}  /* 鼠标点击时 */
 /* 注意： a:hover 必须在 a:link 和 a:visited 之后 */
 /* 注意： a:active 必须在 a:hover 之后。需要严格按顺序才能看到效果!!! */
  
@@ -18,7 +18,18 @@ a:active {color:#ffaa00;}  /* 鼠标点击时 */
 
 .Orange
 {
-	color: #ffaa00;
+	color: white;
+	text-align: center;
+}
+
+.padding_top
+{
+	padding-top: 18px;
+}
+
+.padding_bottom
+{
+	padding-bottom: 18px;
 }
 
 .BiaoTi_2
@@ -35,7 +46,7 @@ a:active {color:#ffaa00;}  /* 鼠标点击时 */
 	/* 字体颜色:白色 */
 	font-size: 18px;
 	/* 字体大小:18像素 */
-	border: 3px solid blanchedalmond;
+	/* border: 3px solid rgb(255, 251, 200); */
 	/* 边框:边框宽度2像素|边框样式:实线边框|边框颜色:类肤色*/
 	border-radius: 24px;
 	/* 边框圆角:20像素 */
@@ -44,8 +55,8 @@ a:active {color:#ffaa00;}  /* 鼠标点击时 */
 	width:550px;
 	/* 宽度:550px */
 	background: #000000;
-	/* 背景: */
-	background-color:#000000;
+	/* body背景: */
+	background-color:#202224;
 	/* 背景颜色: */
 	/* background-image:linear-gradient(141deg,#c93d3d 25%,rgb(182, 56, 56) 50%,#d368aa 85%);
 	opacity:0.95; */
@@ -60,10 +71,11 @@ a:active {color:#ffaa00;}  /* 鼠标点击时 */
 .GongGaoNeiRong
 /* 公告内容 */
 {
-	margin:0px 10px 10px 10px;
+	margin:0px 18px 0px 18px;
 	/* 页边距: 上 右 下 左 */	
 	text-align: left;
 }
+
 
 .HuGuangTao_right
 /*  */
@@ -93,6 +105,6 @@ a:active {color:#ffaa00;}  /* 鼠标点击时 */
 img 
 /* 图像 */
 {
-    border-radius: 20px;
+    border-radius: 24px;
 	/* 边框圆角:20像素 */
 }
